@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <title>React App</title>
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+        height: 100vh;
+      }
+      #root {
+        display: flex;
+        min-height: 100vh;
+        font-size: 14px !important;
+      }
+      #root > aside {
+        flex: none;
+        width: 200px;
+        padding: 5px;
+        border-right: 1px solid #888;
+      }
+      #root > main {
+        flex: auto;
+        padding: 5px;
+      }
+      #root > aside ul {
+        margin: 0;
+        padding: 0;
+      }
+      #root > aside li {
+        margin: 0;
+        padding: 8px;
+        list-style-type: none;
+        cursor: pointer;
+      }
+      input,
+      textarea,
+      button {
+        padding: 6px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      button {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- <script src="./node_modules/react/umd/react.development.js"></script>
+    <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="./node_modules/react-markdown/umd/react-markdown.js"></script>
+    <script src="./node_modules/react-textarea-autosize/dist/react-textarea-autosize.js"></script> -->
+    <script src="./src/index.tsx"></script>
+  </body>
+</html>

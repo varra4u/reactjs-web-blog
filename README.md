@@ -1,2 +1,2 @@
-# reactjs-web-blog
+# jblog
 Created with CodeSandbox
